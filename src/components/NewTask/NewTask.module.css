@@ -1,0 +1,47 @@
+.button {
+    width: 100%;
+    border-radius: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+    padding: 1rem 0.5rem !important;
+    font-weight: 300 !important;
+    text-transform: lowercase;
+    letter-spacing: 0.2rem;
+    color: #9a9a9a !important;
+}
+
+.button:not([data-action]):hover, .button:not(:disabled):not(.disabled):active, .button:focus:not(:focus-visible) {
+    background: #1e1e2f !important;
+    transform: translate(0) !important;
+    box-shadow: none !important;
+}
+
+.label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.send{
+    width: fit-content;
+    padding: 0.5rem !important;
+    text-align: center;
+    border: 1px solid #676767 !important;
+    opacity: 0 !important;
+}
+
+.send:hover {
+    background: none !important;
+}
+
+.input:not(:focus) {
+    border-radius: 0 !important;
+    margin-right: 0 !important;
+    border: none !important;
+}
+
+.input:focus + .send {
+    opacity: 1 !important;
+}
+
+

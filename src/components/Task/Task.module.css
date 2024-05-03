@@ -1,0 +1,15 @@
+.task{
+    background-color: #30304b !important;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300 !important;
+    border: none !important;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-grow: 1;
+}
+
+.task.dragging {
+    transition: background-color 0.2s ease-in-out;
+    background-color: #5e72e4 !important;
+}
